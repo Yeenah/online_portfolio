@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Website Portfolio | Ynna</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="mailto:ynnamayribo@gmail.com"><i class="ri-mail-fill"></i></a>
+        <a href="https://github.com/Yeenah"><i class="ri-github-fill"></i></a>
+        <a href="https://www.linkedin.com/in/ribo-ynnamay-a266a8322"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a class="logo-img"><img src="assets/logo.png" alt=""></a>
+              <span class="logo-name">Ynna</span>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home" onclick="window.location.reload(); return false;">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#skills">Skills</a></li>
+            <li class="link"><a href="#project">Project</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Hi, I am</h4>
+          <h1>Ynna May</h1>
+          <p>
+            Aspiring Front-end Developer
+          </p>
+          <button class="btn" onclick="downloadCV()">
+            <i class="ri-download-2-fill"></i>&nbsp;Download CV
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!--ABOUT-->
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpeg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">About Me</h2>
+        
+    
+        <h4 class="container-education">
+          <span><i class="ri-group-fill"></i></span>
+          <p class="education">Education</p>
+          <p>
+            Bachelor of Science in Computer Engineering <br>
+            Bulacan State Universtiy - Meneses Campus
+          </p>
+        </h4>
+        
+
+        <p>
+          Greetings! I'm Ynna a fresh graduate with a degree in 
+          Computer Engineering at Bulacan State University - Meneses 
+          Campus. I love to create user-friendly websites and even 
+          though I finished my degree I never closed my door to study 
+          and gain invaluable skills in different programming languages 
+          and emerging technologies. I am highly organized and have 
+          a keen eye for detail, and I am seeking a company that will 
+          help me grow and learn in the Front-end development industry.
+        </p>
+        
+        <div class="about__btns">
+          <a href="assets/Ynna_CV.pdf" download class="download__btn">
+            <i class="ri-download-2-fill"></i>&nbsp; CV
+          </a>
+          <a href="mailto:ynnamayribo@gmail.com"><i class="ri-mail-fill"></i></a>
+          <a href="https://github.com/Yeenah"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/ribo-ynnamay-a266a8322"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+      <a href="#" class="arrow"><i class="ri-arrow-up-double-line"></i></a>
+    </section>
+
+    <!--SKILLS-->
+    <section class="section__container skills__container" id="skills">
+      <p class="section__subheader">Explore My</p>
+      <h2 class="section__header">Skills</h2>
+      <p class="section__description">
+        I offer web development, web design, and app design services 
+        to bring your ideas to life.
+      </p>
+      <div class="skills__grid">
+        <div class="skills__card">
+          <span><img src="./assets/html.png" alt="Skills icon" class="icon"></span>
+          
+          <h4>HTML</h4>
+          <p>
+            Intermediate
+          </p>
+        </div>
+        <div class="skills__card">
+          <span><img src="./assets/css.png" alt="Skills icon" class="icon"></span>
+          <h4>CSS</h4>
+          <p>
+            Intermediate
+          </p>
+        </div>
+        <div class="skills__card">
+          <span><img src="./assets/js.png" alt="Skills icon" class="icon"></span>
+          <h4>Javascript</h4>
+          <p>
+            Basic
+          </p>
+        </div>
+        <div class="skills__card">
+          <span><img src="./assets/php.png" alt="Skills icon" class="icon"></span>
+          <h4>PHP</h4>
+          <p>
+            Basic
+          </p>
+        </div>
+        <div class="skills__card">
+          <span><img src="./assets/sql.png" alt="Skills icon" class="icon"></span>
+          <h4>MySql</h4>
+          <p>
+            Basic
+          </p>
+        </div>
+        <div class="skills__card">
+          <span><img src="./assets/figma.png" alt="Skills icon" class="icon"></span>
+          <h4>Figma</h4>
+          <p>
+            Basic
+          </p>
+        </div>
+        <div class="skills__card">
+          <span><img src="./assets/PS.png" alt="Skills icon" class="icon"></span>
+          <h4>Photoshop</h4>
+          <p>
+            Basic
+          </p>
+        </div>
+        <div class="skills__card">
+          <span><img src="./assets/python.png" alt="Skills icon" class="icon"></span>
+          <h4>Python</h4>
+          <p>
+            Basic
+          </p>
+        </div>
+      </div>
+      <a href="#" class="arrow"><i class="ri-arrow-up-double-line"></i></a>
+    </section>
+    
+    <!--PROJECT-->
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">My Projects</h2>
+        
+      </div>
+      <div class="project__grid">
+        <div class="banner__card">
+          <div class="article-container">
+            <img
+              src="./assets/B&C main.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <div>
+            <h4>E-Commerce Website</h4>
+            <p>
+              This is an academic project I developed for our client
+              who owns a delightful franchise of an ice-cream cake shop.
+            </p>
+            <div class="btn-container">
+        
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Yeenah/bake-and-churn-project/blob/main/README.md'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="banner__card">
+          <div class="article-container">
+            <img
+              src="./assets/Pawtract Main.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <div>
+            <h4>Mobile App UI/UX Design</h4>
+            <p>
+              It is a mobile app prototype that is connected
+              to a smart collar device design for tracking
+              pets.
+            </p>
+            <div class="btn-container">
+          
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.figma.com/proto/t0Ad5uLBwcjvfRtddZVjF7/PAWTRACK-PROJECT?page-id=0%3A1&node-id=1-1842&viewport=1253%2C686%2C0.3&t=kHjqS6hHzuQeMPu5-1&scaling=scale-down&content-scaling=fixed'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="banner__card">
+          <div class="article-container">
+            <img
+              src="./assets/swiss main.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <div>
+            <h4>Travel Website</h4>
+            <p>
+              A simple landing page featuring the top 5 must-visit 
+              destinations in Switzerland that I have
+              researched.
+            </p>
+            <div class="btn-container">
+              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href= 'https://yeenah.github.io/travel-website-landing-page/' "
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="arrow"><i class="ri-arrow-up-double-line"></i></a>
+    </section>
+    
+    <!--CONTACT-->
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact Me</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <div class="contact__card">
+        <div class="contact__info__container">
+          <div><i class="ri-mail-fill"></i></div>
+          <p><a href="mailto:ynnamayribo@gmail.com">ynnamayribo@gmail.com</a></p>
+        </div>
+        <div class="contact__info__container">
+          <div><i class="ri-linkedin-fill"></i></div>
+          <p><a href="https://www.linkedin.com/in/ribo-ynnamay-a266a8322">LinkedIn</a></p>
+        </div>
+        
+      </div>
+      <form action="/" class="contact__form">
+        <div class="input__row">
+          <input type="text" placeholder="First Name" />
+          <input type="text" placeholder="Last Name" />
+        </div>
+        <input type="text" placeholder="Email" />
+        <input type="text" placeholder="Description" />
+        <button class="btn">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <div class="footer__img">
+              <a class="logo-img"><img src="assets/logo.png" alt=""></a>
+            </div> 
+            <h4 class="footer-name">Ynna</h4>
+          </div>
+          <p>
+            I'm a life-long learner and I am actively pursuing<br> 
+            this aspiration by mastering the latest technologies,<br> 
+            staying updated with industry trends, and applying best <br>
+            practices in my projects. 
+            
+          </p>
+          <div class="footer__socials">
+            <a href="mailto:ynnamayribo@gmail.com"><i class="ri-mail-fill"></i></a>
+            <a href="https://github.com/Yeenah"><i class="ri-github-fill"></i></a>
+            <a href="https://www.linkedin.com/in/ribo-ynnamay-a266a8322"><i class="ri-linkedin-fill"></i></a>
+            <a href="https://www.facebook.com/jajajaja.jaja00"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/ribo_flavinnn?igsh=bHJjZDNlaGI0Mndx"><i class="ri-instagram-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <a href="#project">Web Design</a>
+            <a href="#project">App Design</a>
+            <a href="#project">Web Development</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <div class="footer__links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Ynna May Ribo. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
